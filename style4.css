@@ -21,17 +21,17 @@ header {
 nav a {
     font-weight: 450;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px;
     color: #000000;
     padding-top: 8px;
-    border-top: 3px #ffffff solid;
+    border-bottom: 4px #ffffff solid;
     transition: 1s;
 }
 
 nav a:hover {
-    color: #007bff;
-    border-top: 3px #007bff solid;
+    color: #2181db;
+    border-bottom: 4px #2181db solid;
 
 }
 
