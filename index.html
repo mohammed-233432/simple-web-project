@@ -4,247 +4,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Simple Web Project | Mohammed Adas</title>
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <title>ASSIMANT CSS</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"> </a>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">PAGES</a>
+    <header id="home">
+        <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Small Apps logo">
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">HOME</a>
+            <a href="#features">FEATURES</a>
             <a href="#about-me">ABOUT</a>
-            <a href="#">CONTACT</a>
+            <a href="#contact">CONTACT</a>
         </nav>
     </header>
-    <img class="Background" src="images/Background.png" alt="Background">
+
+    <img class="Background"
+        src="images/Background.png"
+        alt="">
+
     <main class="Banner">
         <div class="text">
             <h1>Showcase your app with Small Apps</h1>
-            <p>Besides its beautiful design, Laapp is an incredibly rich core framework for you to showcase your App.
+
+            <p>
+                Besides its beautiful design, Laapp is an incredibly rich
+                core framework for you to showcase your App.
             </p>
-            <button class="button_download">Download Now</button>
+
+            <button class="button_download" id="explore-features" type="button">
+                Explore Features
+            </button>
         </div>
+
         <div>
-            <img src="images/mobile.png" alt="mobile">
+            <img src="images/mobile.png" alt="Mobile app preview">
         </div>
     </main>
-    <section class="FSection">
+
+    <section class="FSection" id="features" aria-label="App features">
         <div class="Feature">
-            <i class='bx bxs-color-fill'></i>
+            <i class="bx bxs-color-fill" aria-hidden="true"></i>
             <h2>Themes Made Easy</h2>
-            <p class="text_one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore
-                ipsam dignissimos molestias.</p>
+
+            <p class="text_one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam non, recusandae tempore ipsam dignissimos molestias.
+            </p>
         </div>
+
         <div class="Feature">
-            <i class='bx bx-sun'></i>
+            <i class="bx bx-sun" aria-hidden="true"></i>
             <h2>Powerful Design</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam
-                dignissimos molestias.</p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam non, recusandae tempore ipsam dignissimos molestias.
+            </p>
         </div>
+
         <div class="Feature">
-            <i class='bx bx-user-check'></i>
+            <i class="bx bx-user-check" aria-hidden="true"></i>
             <h2>Creative Content</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam
-                dignissimos molestias.</p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam non, recusandae tempore ipsam dignissimos molestias.
+            </p>
         </div>
     </section>
+
     <section class="PSection">
-        <img style=" 
-                   padding-right: 30px;
-                " src="images/feature/feature-new-01.jpg" alt="image">
+        <img
+            style="padding-right: 30px;"
+            src="images/feature/feature-new-01.jpg"
+            alt="App productivity preview">
+
         <div>
-            <h2 style=" 
-                        color: black;
-                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    ">Increase your productivity with Small Apps</h2>
-            <p class="first_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="second_p">"InVision is a window into everything that's being designed at Twitter. It
-                gets all of our best work in one place"</p>
+            <h2 style="color: black; font-family: system-ui, sans-serif;">
+                Increase your productivity with Small Apps
+            </h2>
+
+            <p class="first_p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p class="second_p">
+                "InVision is a window into everything that's being designed
+                at Twitter. It gets all of our best work in one place"
+            </p>
+
             <div class="factor">
-                <img src="images/person/feature-testimonial-thumb.jpg" alt="person"> <span>Jonathon Andrew ,
-                    Themefisher.com </span>
+                <img
+                    src="images/person/feature-testimonial-thumb.jpg"
+                    alt="Sample testimonial portrait">
+
+                <span>Jonathon Andrew, Themefisher.com</span>
             </div>
         </div>
     </section>
+
     <section class="Interface">
         <div>
-            <h2 class="interface_h2">Increase your productivity with Small Apps</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-            <p class="second_p" style=" 
-                        color: rgb(95, 94, 94);
-                    ">"InVision is a window into everything that's being designed at Twitter. It
-                gets all of our best work in one place"</p>
+            <h2 class="interface_h2">
+                Increase your productivity with Small Apps
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p class="second_p" style="color: rgb(95, 94, 94);">
+                "InVision is a window into everything that's being designed
+                at Twitter. It gets all of our best work in one place"
+            </p>
+
             <div class="factor">
-                <img src="images/person/feature-testimonial-thumb.jpg" alt="person"> <span>Jonathon Andrew ,
-                    Themefisher.com </span>
+                <img
+                    src="images/person/feature-testimonial-thumb.jpg"
+                    alt="Sample testimonial portrait">
+
+                <span>Jonathon Andrew, Themefisher.com</span>
             </div>
         </div>
-        <img src="images/feature/feature-new-02.jpg" alt="image">
+
+        <img
+            src="images/feature/feature-new-02.jpg"
+            alt="App interface preview">
     </section>
+
     <section class="Interface_1">
         <h1>An Interface For Lifestyle</h1>
-        <p>Small Apps makes it easy to stay on top of your lifestyle. No late tasks. No gimmicks.</p>
+
+        <p>
+            Small Apps makes it easy to stay on top of your lifestyle.
+            No late tasks. No gimmicks.
+        </p>
+
         <div>
-            <img class="Interface_1_img" src="images/feature/iphone-ipad.jpg" alt="feature">
+            <img
+                class="Interface_1_img"
+                src="images/feature/iphone-ipad.jpg"
+                alt="App displayed on a phone and tablet">
+
             <div>
                 <div class="Service">
-                    <i class='bx bx-bookmark'></i>
+                    <i class="bx bx-bookmark" aria-hidden="true"></i>
                     <h2>Easy Prototyping</h2>
-                    <p class="para">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet
-                        quam id dui.</p>
+
+                    <p class="para">
+                        Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Curabitur aliquet quam id dui.
+                    </p>
                 </div>
+
                 <div class="Service">
-                    <i class='bx bx-network-chart'></i>
+                    <i class="bx bx-network-chart" aria-hidden="true"></i>
                     <h2>Sensor Bridge</h2>
-                    <p class="para">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet
-                        quam id dui.</p>
+
+                    <p class="para">
+                        Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Curabitur aliquet quam id dui.
+                    </p>
                 </div>
+
                 <div class="Service">
-                    <i class='bx bx-bar-chart-alt-2'></i>
+                    <i class="bx bx-bar-chart-alt-2" aria-hidden="true"></i>
                     <h2>Strategist</h2>
-                    <p class="para">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet
-                        quam id dui.</p>
+
+                    <p class="para">
+                        Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Curabitur aliquet quam id dui.
+                    </p>
                 </div>
+
                 <div class="Service">
-                    <i class='bx bx-left-indent'></i>
+                    <i class="bx bx-left-indent" aria-hidden="true"></i>
                     <h2>Art Direction</h2>
-                    <p class="para">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet
-                        quam id dui.</p>
+
+                    <p class="para">
+                        Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Curabitur aliquet quam id dui.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="VideoSection">
-        <h1>Watch Our Promo Video</h1>
-        <p>Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et,
-            porttitor at sem. Vivamus.</p>
-        <div class="stop">
-            <div class="circle">
-                <div class="triangle">
-                </div>
-            </div>
+
+    <section class="Slider" aria-label="Sample testimonials">
+        <div>
+            <p class="testimonial-text">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Donec sollicitudin molestie malesuada. Pellentesque in ipsum
+                id orci porta dapibus. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+            </p>
+
+            <img
+                src="images/person/feature-testimonial-thumb.jpg"
+                alt="Sample testimonial portrait"
+                class="testimonial-img">
+
+            <p class="testimonial-author">
+                Abraham Linkon, Themefisher.com
+            </p>
+        </div>
+
+        <div>
+            <p class="testimonial-text">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Donec sollicitudin molestie malesuada. Pellentesque in ipsum
+                id orci porta dapibus. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+            </p>
+
+            <img
+                src="images/person/feature-testimonial-thumb.jpg"
+                alt="Sample testimonial portrait"
+                class="testimonial-img">
+
+            <p class="testimonial-author">
+                Abraham Linkon, Themefisher.com
+            </p>
+        </div>
+
+        <div>
+            <p class="testimonial-text">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Donec sollicitudin molestie malesuada. Pellentesque in ipsum
+                id orci porta dapibus. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+            </p>
+
+            <img
+                src="images/person/feature-testimonial-thumb.jpg"
+                alt="Sample testimonial portrait"
+                class="testimonial-img">
+
+            <p class="testimonial-author">
+                Abraham Linkon, Themefisher.com
+            </p>
+        </div>
+
+        <div>
+            <p class="testimonial-text">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Donec sollicitudin molestie malesuada. Pellentesque in ipsum
+                id orci porta dapibus. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+            </p>
+
+            <img
+                src="images/person/feature-testimonial-thumb.jpg"
+                alt="Sample testimonial portrait"
+                class="testimonial-img">
+
+            <p class="testimonial-author">
+                Abraham Linkon, Themefisher.com
+            </p>
         </div>
     </section>
-    <section class="Slider">
-        <div>
-            <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <img src="images/person/feature-testimonial-thumb.jpg" alt="person" class="testimonial-img">
-            <p class="testimonial-author">Abraham Linkon, Themefisher.com</p>
-        </div>
 
-        <div>
-            <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <img src="images/person/feature-testimonial-thumb.jpg" alt="person" class="testimonial-img">
-            <p class="testimonial-author">Abraham Linkon, Themefisher.com</p>
-        </div>
-
-        <div>
-            <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <img src="images/person/feature-testimonial-thumb.jpg" alt="person" class="testimonial-img">
-            <p class="testimonial-author">Abraham Linkon, Themefisher.com</p>
-        </div>
-        <div>
-            <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <img src="images/person/feature-testimonial-thumb.jpg" alt="person" class="testimonial-img">
-            <p class="testimonial-author">Abraham Linkon, Themefisher.com</p>
-        </div>
-    </section>
-
-    <section id="about-me" class="about-me" dir="rtl">
+    <section id="about-me" class="about-me" dir="rtl" lang="ar">
         <h2>عن المطور</h2>
         <p>الاسم: محمد طارق عدس</p>
         <p>الرقم الجامعي: 120223308</p>
+
         <p>
             طالب تطوير ويب، أتعلم بناء واجهات باستخدام
             HTML وCSS وJavaScript.
             هذا المشروع تطبيق عملي على استخدام Git وGitHub.
         </p>
+    </section>
+
+    <section id="contact" class="about-me" dir="rtl" lang="ar">
+        <h2>التواصل</h2>
+        <p>يمكنك زيارة حسابي ومتابعة مشاريعي على GitHub.</p>
+
         <a href="https://github.com/mohammed-233432">
             حسابي على GitHub
         </a>
     </section>
 
-
     <footer>
-
         <div class="cocialmedia">
-            <img src="images/logo-alt.png" alt="">
+            <img src="images/logo-alt.png" alt="Small Apps logo">
+
             <div class="media2">
-                <a href=""><i class='bx bxl-facebook'></i></a>
-                <a href=""><i class='bx bxl-twitter'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a
+                    href="https://github.com/mohammed-233432"
+                    aria-label="Mohammed Adas on GitHub">
+                    <i class="bx bxl-github" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
+
         <div class="linkS">
             <div>
-                <a class="Fname" href="">PRODUCT</a>
-                <a href="">Teams</a>
-                <a href="">Blogs</a>
-                <a href="">FAQs</a>
+                <a class="Fname" href="#home">PROJECT</a>
+                <a href="#features">Features</a>
+                <a href="#about-me">About</a>
+                <a href="#contact">Contact</a>
             </div>
+
             <div>
-                <a class="Fname" href="">RESOURCES</a>
-                <a href="">Singup</a>
-                <a href="">Login</a>
-                <a href="">Blog</a>
+                <a
+                    class="Fname"
+                    href="https://github.com/mohammed-233432/simple-web-project">
+                    GITHUB
+                </a>
+
+                <a href="https://github.com/mohammed-233432/simple-web-project">
+                    Repository
+                </a>
+
+                <a href="https://github.com/mohammed-233432/simple-web-project/issues">
+                    Issues
+                </a>
+
+                <a href="https://github.com/mohammed-233432/simple-web-project/pulls">
+                    Pull Requests
+                </a>
             </div>
-            <div>
-                <a class="Fname" href="">COMPANY</a>
-                <a href="">Career</a>
-                <a href="">Contact</a>
-                <a href="">Investor</a>
-                <a href="">Terms</a>
-            </div>
-            <div>
-                <a class="Fname" href="">COMPANY</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-                <a href="">Team</a>
-                <a href="">Privacy Policy</a>
-            </div>
+        </div>
     </footer>
-</body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
 
-    $(document).ready(function () {
-        $('.Slider').slick({
-            slidesToShow: 2, // عدد البطاقات التي سيتم عرضها معًا
-            slidesToScroll: 1, // التمرير ببطاقة واحدة في كل مرة
-            autoplay: true, // التشغيل التلقائي
-            autoplaySpeed: 2000, // سرعة التشغيل التلقائي
-            arrows: true, // إظهار أزرار التالي والسابق
-            dots: true, // إظهار النقاط أسفل الـ slider
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        document.getElementById('explore-features').addEventListener('click', function () {
+            document.getElementById('features').scrollIntoView({
+                behavior: 'smooth'
+            });
         });
-    });
 
-</script>
+        $(document).ready(function () {
+            $('.Slider').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
 
 </html>
